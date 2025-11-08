@@ -1,0 +1,22 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+
+# --- macOS Desktop file ---
+.DS_Store
+
+# --- Go build & cache ---
+# compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go workspace & build folders
+/bin/
+/pkg/
+
+# coverage files
+*.out

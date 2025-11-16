@@ -23,4 +23,14 @@ print(percentage, missing_ingredients)
 """
 
 def check_ingredient_match(recipe, ingredients):
-    pass
+    ingredients_count = 0
+    ingredients_needed = []
+    for ingredient in recipe:
+        if ingredient in ingredients:
+            ingredients_count += 1
+        else:
+            ingredients_needed.append(ingredient)
+    
+    percentage = (ingredients_count / len(recipe)) * 100
+    return percentage, ingredients_needed
+

@@ -1,0 +1,22 @@
+Assignment
+For the rest of this course, you'll be a forensic developer hired by the fictional "WorldBanc" to investigate a security breach. 
+Like most mega-corporations, they don't know what they're doing, but they're happy to overpay you to come in so that they can say a "third-party expert" has reviewed their systems.
+
+Turns out, you're not an expert, but you're happy to learn on someone else's dime, so why not jump at the opportunity? Right?...
+
+...Anyhow, you'll be using your terminal and shell to traverse files, manipulate text, run programs, and investigate suspicious activity.
+
+Set the following three variables in your shell:
+bankname="WorldBanc"
+founded="1969"
+ceo="Jeff Gates"
+
+Write and execute a command that will print the following using echo and the dynamic variables you just set:
+WorldBanc was founded in 1969 by Jeff Gates
+
+Paste the entire command that generated the correct output into the text field and submit it.
+
+__________ __________ __________
+
+echo $bankname was founded in $founded by $ceo
+ 

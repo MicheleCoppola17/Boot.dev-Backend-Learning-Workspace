@@ -1,0 +1,32 @@
+Assignment
+Time to start digging for evidence.
+
+1. Copy/paste and run the command below to download the worldbanc directory from GitHub. 
+It contains files and directories that you'll need throughout this course. 
+If prompted for a password, use the password for your machine's user account, or the one you used when setting up Ubuntu in WSL.
+
+curl -L https://github.com/bootdotdev/worldbanc/archive/refs/heads/main.zip -o worldbanc.zip
+unzip worldbanc.zip
+rm worldbanc.zip
+mv worldbanc-main worldbanc
+sudo chown -R $(whoami) worldbanc
+sudo chmod -R 755 worldbanc
+
+We'll cover what these commands do later. If you run into an issue, see the troubleshooting tips below.
+
+You should now have a worldbanc directory in your current working directory. When learning terminal commands in this course, it's possible to make a mistake and ruin your version of the worldbanc repo. If that happens, just come back to this lesson and download worldbanc again.
+
+2. Run the "list" command to see the contents of your current working directory:
+ls
+
+You should see a worldbanc directory listed.
+
+3. Run the "change directory" command to move into the worldbanc directory:
+cd worldbanc
+
+4. Use the ls command again to see the contents of the worldbanc directory. Paste the console output into the text field and submit your answer.
+
+__________ __________ __________
+
+The output is: 
+README.md	private		public

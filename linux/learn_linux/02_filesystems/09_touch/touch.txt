@@ -1,0 +1,14 @@
+Assignment
+You discovered a discrepancy with the credit card files. WorldBanc is supposed to be keeping credit history records, but they aren't there!
+
+1. Change into the worldbanc/public/products/credit_cards directory
+2. Create a new file named credithistory.txt so they can keep track of that information
+3. Use ls to verify that the file has been created successfully.
+Paste the contents of the credit_cards directory into the text field and submit it.
+
+__________ __________ __________
+
+The output is:
+
+credithistory.txt	economypoints.txt	jointrewardsplux.txt	travelrewards.txt
+creditplus.txt		freedomunited.txt	tbills.txt		worldbanccard.txt

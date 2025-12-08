@@ -1,0 +1,14 @@
+Assignment
+1. In your shell, set 2 variables:
+    - department to engineering
+    - eam to ops
+2. Use echo to print the following message (using the $department and $team variables):
+    - I work in engineering on ops
+3. Run the history command and paste its full output into the text field, including the variables you set and the final echo command.
+
+Before running these commands, ensure your history doesn't contain sensitive data (such as passwords or API keys). 
+Consider running this assignment in a new shell session with a fresh or temporary history to protect your privacy.
+
+__________ __________ __________
+
+no real exercise

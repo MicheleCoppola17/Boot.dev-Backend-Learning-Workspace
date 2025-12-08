@@ -1,0 +1,28 @@
+Assignment
+Time to start investigating the bank's transactions.
+
+1. Use the cd command to get into the worldbanc/private/transactions/ directory.
+2. Run the cat command to view the contents of the 2023.csv file. You'll notice that it's a really long file. We don't want to print the whole thing.
+3. Use the head command to print the first 6 lines of the 2023.csv file and copy them into the input field – do not submit yet
+
+We print the first 6 lines because the first line in the file is the header, and we want to include that along with the first 5 transactions.
+
+4 .Use the tail command to print the last 5 lines of the 2023.csv file and copy them into the input field
+
+Submit the combined first 6 and last 5 lines, for a total of 11 lines.
+
+__________ __________ __________
+
+The output is:
+amount,from_user_id,to_user_id,from_name,to_name,created_at
+80.16,18,14,Steve,Oscar,2023-07-05 08:43:55
+962.70,5,10,Frank,Kyle,2023-01-07 18:39:14
+407.51,4,4,Eva,Eva,2023-05-31 15:26:04
+827.96,4,1,Eva,Bob,2023-06-03 16:53:02
+472.91,5,13,Frank,Nora,2023-02-05 06:47:19
+
+393.56,14,4,Oscar,Eva,2023-09-04 14:04:54
+861.65,11,6,Lily,Grace,2023-08-10 01:28:46
+210.75,5,5,Frank,Frank,2023-04-20 03:23:14
+737.84,18,4,Steve,Eva,2023-11-18 16:21:57
+683.91,10,8,Kyle,Ivan,2023-11-11 18:57:27

@@ -1,0 +1,15 @@
+Assignment
+Navigate back out of the worldbanc directory so that you're in its parent directory. If you're in the top level of the worldbanc directory, just type:
+
+cd ..
+
+Then run the ls command again, but pass in the name of the worldbanc directory as an argument to list its contents from the parent directory:
+
+ls worldbanc
+
+Paste the output into the input box and submit your answer.
+
+__________ __________ __________
+
+The output is: 
+README.md	private		public

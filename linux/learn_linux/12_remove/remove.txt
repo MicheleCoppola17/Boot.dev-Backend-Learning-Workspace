@@ -1,0 +1,14 @@
+Assignment
+1. Change directories to the worldbanc/private directory using the cd command.
+2. Use the cat command to view the contents of the passwords/passwords.txt file.
+
+There's a big problem here! It looks like someone is storing passwords in plain text! Even on a private machine, this is a big security risk.
+
+3. Delete both the passwords directory and the passwords.txt file within it.
+4. List the contents of the "private" directory again to make sure that the file is gone.
+
+Paste the contents of the private directory into the input field and submit it.
+
+__________ __________ __________
+
+bin		cmd		contacts	customers	logs		transactions

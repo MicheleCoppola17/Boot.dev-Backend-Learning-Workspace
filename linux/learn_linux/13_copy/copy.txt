@@ -1,0 +1,9 @@
+Assignment
+1. Take a look inside the worldbanc/private/transactions/ directory. You should see a few files containing transactions from different years.
+2. Look inside the backups directory inside of transactions. It looks like something is missing!
+3. Copy the missing file from the transactions directory into the backups directory so there is a backup of all of the transactions.
+
+List the contents of the backups directory and paste the output without the command into the input field and submit it.
+
+__________ __________ __________
+

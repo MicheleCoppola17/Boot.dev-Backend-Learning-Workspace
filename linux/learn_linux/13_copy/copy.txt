@@ -6,4 +6,6 @@ Assignment
 List the contents of the backups directory and paste the output without the command into the input field and submit it.
 
 __________ __________ __________
+The command is:
 
+cp 2020.csv backups/

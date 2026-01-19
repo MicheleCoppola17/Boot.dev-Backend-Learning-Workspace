@@ -45,6 +45,7 @@ def main():
         describe(dragon)
 
     for i, dragon in enumerate(dragons):
+        # build a list called other_dragons that excludes dragons[i]
         other_dragons = dragons[:i] + dragons[i+1:]
         dragon.breathe_fire(x=3, y=3, units=other_dragons)
 

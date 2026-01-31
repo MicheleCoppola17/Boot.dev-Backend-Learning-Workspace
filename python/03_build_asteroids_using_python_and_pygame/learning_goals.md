@@ -9,3 +9,6 @@ The goal is not to teach game development or the math required for physics simul
 
 ## NOTE
 The project is built in another venv.
+
+repo:
+https://github.com/MicheleCoppola17/asteroids

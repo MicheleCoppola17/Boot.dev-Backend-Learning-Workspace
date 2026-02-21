@@ -1,4 +1,12 @@
 """
+Markdown makes displaying images as simple as possible. To add an image to a markdown document, just use this syntax:
+
+![alt text](url "title")
+
+alt text: a brief description for screen readers and web scrapers. Required for accessibility.
+url: url or relative path to image.
+title: shown on mouse hover. Optional.
+
 Assignment
 Doc2Doc makes using markdown a breeze. This includes adding images to markdown documents.
 
@@ -22,4 +30,19 @@ Complete the create_markdown_image function using currying. It takes a string in
 """
 
 def create_markdown_image(alt_text):
-    pass
+    alt_text_enclosed = f"![{alt_text}]"
+    def handle_url(url):
+        url = url.replace("(", "%28")
+        url = url.replace(")", "%29")
+        url = f"({url})"
+        image_syntax = alt_text_enclosed + url
+        def handle_title(title=None):
+            nonlocal image_syntax
+            if title is not None:
+                title = f'"{title}"'
+                image_syntax = image_syntax[:-1]
+                image_syntax = image_syntax + f" {title})"
+            return image_syntax
+        return handle_title
+    return handle_url
+

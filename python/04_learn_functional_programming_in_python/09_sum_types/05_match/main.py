@@ -23,4 +23,13 @@ DocFormat = Enum("DocFormat", ["PDF", "TXT", "MD", "HTML"])
 
 
 def convert_format(content, from_format, to_format):
-    pass
+    match (from_format, to_format):
+        case (DocFormat.MD, DocFormat.HTML):
+            return (f"{content.replace("# ", "<h1>")}</h1>")
+        case (DocFormat.TXT, DocFormat.PDF):
+            return (f"[PDF] {content} [PDF]")
+        case (DocFormat.HTML, DocFormat.MD):
+            content = content.replace("</h1>", "")
+            return content.replace("<h1>", "# ")
+        case _:
+            raise Exception("invalid type")

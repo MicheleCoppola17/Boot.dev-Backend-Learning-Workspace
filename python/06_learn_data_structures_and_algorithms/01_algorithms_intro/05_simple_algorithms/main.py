@@ -8,4 +8,8 @@ The sum of an empty list should be 0.
 """
 
 def summed(nums):
-    pass
+    sum = 0
+    
+    for num in nums:
+        sum += num
+    return sum
